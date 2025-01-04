@@ -17,7 +17,7 @@ export const Navbar = () => {
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
-        <Link href="#hero">
+        <Link href="#home">
           <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
               <span>
                 <Image
@@ -36,7 +36,7 @@ export const Navbar = () => {
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
             <ThemeChanger />
             <div className="hidden mr-3 lg:flex nav__item">
-              <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+              <Link href="https://hcb.hackclub.com/donations/start/hands-across-communities" target="_blank" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
                 Donate
               </Link>
             </div>
@@ -75,7 +75,7 @@ export const Navbar = () => {
                           {item}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
+                    <Link href="https://hcb.hackclub.com/donations/start/hands-across-communities" target="_blank" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
                         Donate
                     </Link>
                   </>

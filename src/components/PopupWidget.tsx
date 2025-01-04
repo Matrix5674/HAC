@@ -8,6 +8,8 @@ import {
   DisclosureButton,
 } from "@headlessui/react";
 
+
+
 export function PopupWidget() {
   const {
     register,
@@ -23,10 +25,9 @@ export function PopupWidget() {
   const [Message, setMessage] = useState("");
 
   const userName = useWatch({ control, name: "name", defaultValue: "Someone" });
-
+  
   const onSubmit = async (data: any, e: any) => {
-    console.log(data);
-    await fetch("https://api.web3forms.com/submit", {
+    await fetch("/api/submitForm", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -127,19 +128,22 @@ export function PopupWidget() {
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
                   {!isSubmitSuccessful && (
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
+
+                      <input 
+                        type="hidden"
+                        value={process.env.NEXT_PUBLIC_WEB_FORMS_3_API_KEY}
+                        {...register("access_key")}
+                        />
+                      
+
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
-                        {...register("apikey")}
-                      />
-                      <input
-                        type="hidden"
-                        value={`${userName} sent a message from Nextly`}
+                        value={`${userName} sent a message from HAC`}
                         {...register("subject")}
                       />
                       <input
                         type="hidden"
-                        value="Nextly Template"
+                        value="HAC Organization"
                         {...register("from_name")}
                       />
                       <input
@@ -237,6 +241,8 @@ export function PopupWidget() {
                           </div>
                         )}
                       </div>
+
+
                       <div className="mb-3">
                         <button
                           type="submit"
@@ -272,17 +278,6 @@ export function PopupWidget() {
                         className="text-xs text-center text-gray-400"
                         id="result"
                       >
-                        <span>
-                          Powered by{" "}
-                          <a
-                            href="https://Web3Forms.com"
-                            className="text-gray-600"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Web3Forms
-                          </a>
-                        </span>
                       </p>
                     </form>
                   )}
