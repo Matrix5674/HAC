@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "Hands Across Communities",
   "version": "2.0.0",
-  "description": "Nextly Landing Page Template",
+  "description": "Hands Across Communities is a non-profit organization that provides resources and support to communities in need.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,14 +11,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/web3templates/nextly-template"
+    "url": "https://github.com/Matrix5674/HAC"
   },
   "keywords": [
-    "nextjs",
-    "tailwindcss",
-    "free"
+    "Hands Across Communities",
+    "HAC",
+    "HOPE",
+    "WeHOPE",
+    "non-profit",
+    "community",
+    "support",
+    "resources",
+    "donate",
+    "volunteer",
+    "high-school",
+    "PSVA",
+    "psva",
+    "volunteering hours"
   ],
-  "author": "Surjith S M",
+  "author": "Soham Sahasrabuddhe",
   "license": "ISC",
   "dependencies": {
     "@headlessui/react": "^2.0.3",
