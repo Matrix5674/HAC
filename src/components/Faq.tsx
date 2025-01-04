@@ -36,21 +36,22 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "Does HAC offer PSVA awards for its volunteers?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Yes! We offer PSVA awards to our volunteers who have completed 100 or more hours of service. Please contact us or visit the PSVA website for more information.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Why does HAC charge a 7% transaction fee?",
+    answer: "The fee is taken by our payment processor to cover some of our organizations backend costs. This includes legal fees, accounting fees, and processing fees.",
+  },
+  {
+    question: "What is HAC's refund policy?",
+    answer: "We will occasionally offer refunds on a case-by-case basis. Please contact us if you would like to request a refund.",
+  },
+
+  {
+    question: "What is the best way to contact HAC?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Scroll to the bottom of the page. You will find our contact information there. You can also reach out to us on social media. We will try to respond in under 2 business days.",
   },
 ];
