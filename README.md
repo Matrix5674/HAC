@@ -1,65 +1,45 @@
-<p align="center">
- <a href="https://web3templates.com/?ref=nextly_github_logo">
- <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
- </a> 
- <br>
- <br>
-</p>
+# Hands Across Communities (HAC)
 
-# Nextly - Landing Page Template with Next.js & Tailwind CSS
+Welcome to the official website of Hands Across Communities (HAC), a non-profit organization dedicated to fostering community development and empowerment.
 
-Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
-And its completely open-source.
- 
-![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
+## About Us
 
-## How to use
+Hands Across Communities (HAC) is committed to creating sustainable and impactful change in communities through various initiatives and programs. Our mission is to empower individuals and groups to achieve their full potential and contribute positively to society.
 
-Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
+## Our Team
 
-### 1\. Clone this Repository
+Our team is composed of dedicated professionals and volunteers who are passionate about making a difference. We work collaboratively to design and implement programs that address the unique needs of the communities we serve.
 
-```bash
-git clone https://github.com/surjithctly/nextly-template.git
-```
+## Testimonials
 
-### 2\. Navigate to the directory
+Hear from those who have benefited from our programs:
 
-```
-cd nextly-template
-```
+- "HAC has transformed our community by providing essential resources and support." - Community Member
+- "The dedication and commitment of the HAC team are truly inspiring." - Volunteer
 
-### 3\. Install dependencies
+## FAQ
 
-```
-yarn install
-# or
-npm install
-```
+**Q: How can I get involved with HAC?**
+A: You can get involved by volunteering, donating, or participating in our programs. Visit our [Get Involved](#get-involved) page for more information.
 
-### 5\. Run Dev Server
+**Q: What programs does HAC offer?**
+A: HAC offers a variety of programs focused on education, health, and community development. Check out our [Programs](#programs) page for details.
 
-```
-yarn dev
-# or
-npm run dev
-```
+## Get Involved
 
-## Deploy with Vercel
+Join us in making a difference! Whether you want to volunteer your time, donate resources, or participate in our programs, there are many ways to get involved with HAC.
 
-Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Contact Us
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
+Have questions or want to learn more? Reach out to us at [contact@hac.org](mailto:contact@hac.org) or visit our [Contact Us](#contact-us) page.
 
+## Follow Us
 
-## Author
+Stay connected with us on social media:
 
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+- [Facebook](https://www.facebook.com/hac)
+- [Twitter](https://www.twitter.com/hac)
+- [Instagram](https://www.instagram.com/hac)
+- [LinkedIn](https://www.linkedin.com/company/hac)
 
----
-
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
-
-
-
-
+Thank you for visiting our website and supporting Hands Across Communities!
