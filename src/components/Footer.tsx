@@ -8,6 +8,7 @@ import HAC_ICON from "../../public/img/hands-across-communities-logo.jpg"
 export function Footer() {
   const navigation = ["About", "Team", "Testimonials", "FAQ"];
   const legal = ["Terms", "Privacy", "Legal"];
+  const legalLinks = ["/", "/", "/"]
   return (
     <div className="relative">
       <Container>
@@ -43,7 +44,7 @@ export function Footer() {
               {navigation.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={`#${item.toLowerCase()}`}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
@@ -56,7 +57,7 @@ export function Footer() {
               {legal.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={legalLinks[index]}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
@@ -102,6 +103,10 @@ export function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}.
         </div>
+        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+        Hands Across Communities is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
+        </div>
+        
       </Container>
 
     </div>
