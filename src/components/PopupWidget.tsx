@@ -122,7 +122,7 @@ export function PopupWidget() {
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-indigo-600">
                   <h3 className="text-lg text-white">How can we help?</h3>
                   <p className="text-white opacity-50">
-                    Not taking messages right now sorry!
+                    We will get back to you as soon as possible!
                   </p>
                 </div>
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
