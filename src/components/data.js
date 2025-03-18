@@ -41,7 +41,7 @@ const Team_Section = {
   bullets: [
     {
       title: "Soham Sahasrabuddhe",
-      desc: "Founder and President of HAC; Lead of Software Development",
+      desc: "Founder and Co-President of HAC; Lead of Software Development",
       icon: <StarIcon />,
     },
     {

@@ -20,9 +20,10 @@ export default function Home() {
                 preTitle="About Us"
                 title="Our Mission"
               >
-                Our mission at HAC is to provide safe and secure shelter for homeless individuals, 
-                offer nutritious meals and essential supplies, facilitate access to healthcare and 
-                social services, and empower individuals through education and job training programs.
+                Our mission at HAC is to provide care for homeless individuals, 
+                offer nutritious meals and essential supplies, aid in access to healthcare and 
+                social services, and support younger children through educational supplies 
+                and recreational activities.
               </SectionTitle>
         <Benefits data={benefitOne} />
         
@@ -30,7 +31,7 @@ export default function Home() {
       
       <div id="team">
         <Benefits imgPos="right" data={benefitTwo} />
-        <SectionTitle
+        {/* <SectionTitle
           preTitle="Watch a video"
           title="Get to know us!"
         >
@@ -39,8 +40,8 @@ export default function Home() {
           Get to know the dedicated team behind our efforts and the stories 
           of those we have helped.
       </SectionTitle>
-      <Video videoId="fZ0D0cnR88E" />
-      </div>
+      <Video videoId="fZ0D0cnR88E" />*/}
+      </div> 
     
       <div id="testimonials">
         <SectionTitle
